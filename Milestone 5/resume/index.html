@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Editable interactive Resume</title>
+  <link rel="stylesheet" href="/resume/style.css">
+  
+</head>
+
+<body>
+
+  <div class="container">
+
+   
+
+    <!-- ***********************Header Section**************** -->
+    <div class="header">
+      <div class="image_block">
+        
+      </div>
+      <div class="img-area">
+        <img id="resimg" src="/resume/zia-removebg.png" alt="profile Picture">
+      </div>
+     
+      <h1 id="name"><span id="resum_name"></span></h1>
+      <h3 id="j_title"><span id="title_job"></span></h3>
+      <div class="objective">
+            <h4>Career Objective</h4>
+            <p>An employment opportunity with a forward-thinking company where I can make the most of my professional expertise and talents and contribute to the expansion of the company.
+               
+            </p>
+      </div>
+
+    </div>
+   
+
+    <div class="main">
+      <div class="left">
+        <!-- ***************************profile section**************** -->
+
+        <h2>Personal Information</h2>
+        <!-- <p id="info_name"><strong>Name:</strong> Zia Ur Rehman</p> /////no need name already in title mentioned -->
+        
+        <p><strong>Age: </strong><span id="Age_span"></span></p>
+        <p><strong>Email: </strong> <span id="Email_span"></span></p>
+        <p><strong>Phone: </strong><span id="resPhone"></span></p>
+        <p><strong>Address: </strong><span id="resAddress"></span></p>
+
+        </ul>
+
+        <!-- ************************skills************** -->
+        
+         
+          <div id="skill">
+            <h2>Skills</h2>
+           
+          <p><strong><span id="res_skill_1"></span></strong></p>
+          <p><strong><span id="res_skill_2"></span></strong></p>
+          <p><strong><span id="res_skill_3"></span></strong></p>
+              
+          </div>
+
+        
+          
+            
+            
+     
+        <div class="toggle_button">
+          <input type="button" value="Hide Skills" id="togglebutton" class="togglebutton">
+        </div>
+
+      </div>
+
+    
+
+      <div class="right">
+
+        <!--*************Education section***************** -->
+
+        <h2>Education</h2>
+   
+        <p><strong>Degree: </strong><span id="resum_deg"></span></p>
+        
+        <p><strong>Institute Name: </strong><span id="resum_instit"></span></p>
+        
+        <p><strong>City: </strong><span id="resum_city"></span></p>
+
+        <p><strong>Passing Year: </strong><span id="resum_year"></span></p>
+        
+
+
+        <!-- /***********************Experiance Section******************** -->
+
+        <h2>Work Experience</h2>
+        <p><strong><span id="ex1"></span></strong></p>
+        <p><span id="des1"></span></p>
+        <p><span id="exp_time"></span></p>
+        <br>
+        <p><strong><span id="ex2"></span></strong></p>
+        <p><span id="des2"></span></p>
+        <p><span id="exp_time2"></span></p>
+        <br>
+        <p><strong><span id="ex3"></span></strong></p>
+        <p><span id="des3"></span></p>
+        <p><span id="exp_time3"></span></p>
+     
+      </div>
+
+      
+    </div>
+
+    <div class="btn_func">
+      <button class="btn_style" id="print_btn">Print</button>
+      <button class="btn_style" id="edit_btn">Edit</button>
+      <a id="anc" href=""><button class="btn_style" id="share_btn">Share</button></a>
+    </div>
+  </div>
+  
+  <script src="/resume/index.js" type="module"></script>
+</body>
+
+</html>
